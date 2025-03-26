@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="projetBus" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/projetBus" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pedantic" />
+					<Add option="-Wall" />
+					<Add option="-std=c99" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="libmingw32" />
+					<Add library="libSDL2main" />
+					<Add library="libSDL2" />
+					<Add library="libSDL2_image" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/projetBus" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libmingw32" />
+					<Add library="libSDL2main" />
+					<Add library="libSDL2" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-pedantic" />
+			<Add option="-Wall" />
+			<Add option="-std=c99" />
+			<Add directory="SDL2/x86_64-w64-mingw32/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add library="libmingw32" />
+			<Add library="libSDL2main" />
+			<Add library="libSDL2" />
+			<Add directory="SDL2/x86_64-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="SDL_VSYNC.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SDL_VSYNC.h" />
+		<Unit filename="ligneBus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ligneBus.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="listeDouble.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="listeDouble.h" />
+		<Unit filename="maSDL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="maSDL.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="types.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="types.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

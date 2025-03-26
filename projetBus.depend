@@ -1,0 +1,1851 @@
+# depslib dependency file v1.0
+1647527332 source:c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\clashloyal.c
+	"SDL.h"
+	"clashloyal.h"
+	<stdio.h>
+	<stdlib.h>
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_guid.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+	<sdkddkver.h>
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590807 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<lsxintrin.h>
+	<lasxintrin.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590807 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_guid.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590807 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590807 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590807 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1647347249 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\clashloyal.h
+
+1742759651 source:c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\masdl.c
+	<stdbool.h>
+	"SDL.h"
+	"maSDL.h"
+	"listeDouble.h"
+	"ligneBus.h"
+
+1741590803 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\masdl.h
+	"types.h"
+	"SDL_VSYNC.h"
+
+1742741894 source:c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\listedouble.c
+	<stdio.h>
+	<stdlib.h>
+	"listeDouble.h"
+
+1741590803 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\listedouble.h
+	<stdbool.h>
+	"types.h"
+
+1742759493 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\types.h
+
+1742748218 source:c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\types.c
+	<stdio.h>
+	<stdlib.h>
+	"types.h"
+
+1742828596 source:c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\lignebus.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"types.h"
+	"ligneBus.h"
+	"listeDouble.h"
+
+1742759666 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\lignebus.h
+	<stdbool.h>
+	"types.h"
+
+1742759751 source:c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\main.c
+	"SDL.h"
+	"maSDL.h"
+	"SDL_VSYNC.h"
+	"ligneBus.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1742748862 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl_vsync.h
+	"SDL.h"
+	<stdbool.h>
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_guid.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590804 source:c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl_vsync.c
+	"SDL.h"
+	"SDL_VSYNC.h"
+	"SDL_image.h"
+	<stdio.h>
+	<string.h>
+	<stdbool.h>
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projet bus\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1647527332 source:e:\projetbus\clashloyal.c
+	"SDL.h"
+	"clashloyal.h"
+	<stdio.h>
+	<stdlib.h>
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_guid.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"close_code.h"
+
+1706832968 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+	<sdkddkver.h>
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<lsxintrin.h>
+	<lasxintrin.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_guid.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_guid.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832967 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1647347249 e:\projetbus\clashloyal.h
+
+1740755601 source:e:\projetbus\lignebus.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"types.h"
+	"ligneBus.h"
+	"listeDouble.h"
+
+1740754426 e:\projetbus\types.h
+
+1741030342 e:\projetbus\lignebus.h
+	<stdbool.h>
+	"types.h"
+
+1740754426 e:\projetbus\listedouble.h
+	<stdbool.h>
+	"types.h"
+
+1740754426 source:e:\projetbus\listedouble.c
+	<stdio.h>
+	<stdlib.h>
+	"listeDouble.h"
+
+1741079559 source:e:\projetbus\main.c
+	"SDL.h"
+	"maSDL.h"
+	"SDL_VSYNC.h"
+	"ligneBus.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1741077248 e:\projetbus\masdl.h
+	"types.h"
+	"SDL_VSYNC.h"
+
+1741075755 e:\projetbus\sdl_vsync.h
+	"SDL.h"
+	<stdbool.h>
+
+1741079253 source:e:\projetbus\masdl.c
+	<stdbool.h>
+	"SDL.h"
+	"maSDL.h"
+
+1741076669 source:e:\projetbus\sdl_vsync.c
+	"SDL.h"
+	"SDL_VSYNC.h"
+	"SDL_image.h"
+	<stdio.h>
+	<string.h>
+	<stdbool.h>
+
+1704144973 e:\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1740754426 source:e:\projetbus\types.c
+	<stdio.h>
+	<stdlib.h>
+	"types.h"
+
+1741363780 source:c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\lignebus.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"types.h"
+	"ligneBus.h"
+	"listeDouble.h"
+
+1741356482 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\types.h
+
+1741363104 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\lignebus.h
+	<stdbool.h>
+	"types.h"
+
+1741173978 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\listedouble.h
+	<stdbool.h>
+	"types.h"
+
+1741173964 source:c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\listedouble.c
+	<stdio.h>
+	<stdlib.h>
+	"listeDouble.h"
+
+1741363211 source:c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\main.c
+	"SDL.h"
+	"maSDL.h"
+	"SDL_VSYNC.h"
+	"ligneBus.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_guid.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+	<sdkddkver.h>
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<lsxintrin.h>
+	<lasxintrin.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_guid.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_guid.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1706832968 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741351192 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\masdl.h
+	"types.h"
+	"SDL_VSYNC.h"
+
+1741352524 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl_vsync.h
+	"SDL.h"
+	<stdbool.h>
+
+1741353154 source:c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\masdl.c
+	<stdbool.h>
+	"SDL.h"
+	"maSDL.h"
+	"listeDouble.h"
+	"ligneBus.h"
+
+1741357720 source:c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl_vsync.c
+	"SDL.h"
+	"SDL_VSYNC.h"
+	"SDL_image.h"
+	<stdio.h>
+	<string.h>
+	<stdbool.h>
+
+1704144974 c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741356482 source:c:\users\yanni\documents\_2024-2025\l2 c\projetbus 7 mars\projetbus\types.c
+	<stdio.h>
+	<stdlib.h>
+	"types.h"
+
+1741590803 source:c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\listedouble.c
+	<stdio.h>
+	<stdlib.h>
+	"listeDouble.h"
+
+1741590803 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\listedouble.h
+	<stdbool.h>
+	"types.h"
+
+1741597918 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\types.h
+
+1741590803 source:c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\main.c
+	"SDL.h"
+	"maSDL.h"
+	"SDL_VSYNC.h"
+	"ligneBus.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_guid.h"
+	"SDL_haptic.h"
+	"SDL_hidapi.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"SDL_locale.h"
+	"SDL_misc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+	<winsdkver.h>
+	<sdkddkver.h>
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<endian.h>
+	<endian.h>
+	<sys/endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590807 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<arm_neon.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<lsxintrin.h>
+	<lasxintrin.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590807 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_guid.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_guid.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590807 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590805 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590807 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590807 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741590803 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\masdl.h
+	"types.h"
+	"SDL_VSYNC.h"
+
+1741590804 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl_vsync.h
+	"SDL.h"
+	<stdbool.h>
+
+1741598535 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\lignebus.h
+	<stdbool.h>
+	"types.h"
+
+1741590804 source:c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl_vsync.c
+	"SDL.h"
+	"SDL_VSYNC.h"
+	"SDL_image.h"
+	<stdio.h>
+	<string.h>
+	<stdbool.h>
+
+1741590806 c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\sdl2\x86_64-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1741598535 source:c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\lignebus.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"types.h"
+	"ligneBus.h"
+	"listeDouble.h"
+
+1741598068 source:c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\masdl.c
+	<stdbool.h>
+	"SDL.h"
+	"maSDL.h"
+	"listeDouble.h"
+	"ligneBus.h"
+
+1741597918 source:c:\users\yannickdegardin\onedrive - université de poitiers\l2 c synthese 2023\projets\projetbusapres7mars\projetbus\types.c
+	<stdio.h>
+	<stdlib.h>
+	"types.h"
+
