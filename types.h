@@ -3,48 +3,55 @@
 
 typedef enum type_noeud {ARRET, TRONCON} TypeNoeud;
 
-typedef struct T_station { //représente UN TRONCON (entre deux arrêts) ou UN ARRET (cad une station de la ligne de bus)
+typedef struct 
+{
+    int jour;
+    int mois;
+    int annee;
+} t_date;
+
+typedef struct T_station { //reprï¿½sente UN TRONCON (entre deux arrï¿½ts) ou UN ARRET (cad une station de la ligne de bus)
 
     TypeNoeud arret_ou_troncon;
 
-    //données utiles si le Noeud est un TRONCON
-    int idLigneBus;                    //numéro de la ligne de bus par laquelle on arrive sur la station
-    struct T_station* depart;          // pointeurs sur les stations de départ et d'arrivée du tronçon
+    //donnï¿½es utiles si le Noeud est un TRONCON
+    int idLigneBus;                    //numï¿½ro de la ligne de bus par laquelle on arrive sur la station
+    struct T_station* depart;          // pointeurs sur les stations de dï¿½part et d'arrivï¿½e du tronï¿½on
     struct T_station* arrivee;
-    int coutTemps;                     // coût en temps de parcours (en secondes)
-    int coutDistance;                  // coût en distance (en mètres)
-    int tempsCumule, distanceCumule;   // champs utiles pour déterminer le meilleur itinéraire
+    int coutTemps;                     // coï¿½t en temps de parcours (en secondes)
+    int coutDistance;                  // coï¿½t en distance (en mï¿½tres)
+    int tempsCumule, distanceCumule;   // champs utiles pour dï¿½terminer le meilleur itinï¿½raire
 
-    //données utiles si le Noeud est un ARRET
-    int posX, posY;                    //coordonnées sur le plan de la ville
+    //donnï¿½es utiles si le Noeud est un ARRET
+    int posX, posY;                    //coordonnï¿½es sur le plan de la ville
     char nomStation[30];
-    int idStation;                     //numéro unique et non liée à une ligne, une ligne de bus étant constituée d'une suite de d'id stations: exemple : 3  - 7 - 1 - 5
+    int idStation;                     //numï¿½ro unique et non liï¿½e ï¿½ une ligne, une ligne de bus ï¿½tant constituï¿½e d'une suite de d'id stations: exemple : 3  - 7 - 1 - 5
 
     //champs utiles pour les tris
-    //int coutMaintenance;                //en Kilo euro, une valeur entre 10 et 100  (A VOUS DE GERER)
-    //t_date dateDerniereMaintenance      //t_date est à définir, doit permettre de stocker une date jour/mois/année, y mettre une date aléatoire (A VOUS DE GERER)
+    int coutMaintenance;                //en Kilo euro, une valeur entre 10 et 100  (A VOUS DE GERER)
+    t_date dateDerniereMaintenance      //t_date est ï¿½ dï¿½finir, doit permettre de stocker une date jour/mois/annï¿½e, y mettre une date alï¿½atoire (A VOUS DE GERER)
 
-    //struct T_station* correspondances; //égale à NULL si pas de correspondance, sinon égale à une liste de TRONCONS
+    //struct T_station* correspondances; //ï¿½gale ï¿½ NULL si pas de correspondance, sinon ï¿½gale ï¿½ une liste de TRONCONS
     //int coutCumule;                    //pour le calcul du plus court chemin, algo de Djikstra
 
 } Tstation;
 
 
-//type pour la liste doublement chainée, utilisé daans listeDouble.h/.c
+//type pour la liste doublement chainï¿½e, utilisï¿½ daans listeDouble.h/.c
 typedef struct T_cell{
     struct T_cell *suiv;
     struct T_cell *prec;
-    Tstation *pdata;              //attention à faire un malloc sur ce champ avant de s'en servir
+    Tstation *pdata;              //attention ï¿½ faire un malloc sur ce champ avant de s'en servir
 } T_cellule;
 typedef T_cellule* T_liste;
 
 
-//Une liste de stations  (basée sur listeDouble.h/.c)
-typedef T_liste TlisteStation;  //T_liste et TlisteStation sont équivalents, cad pointeur sur Tcellule
+//Une liste de stations  (basï¿½e sur listeDouble.h/.c)
+typedef T_liste TlisteStation;  //T_liste et TlisteStation sont ï¿½quivalents, cad pointeur sur Tcellule
 
 //une ligne de bus
 typedef struct{
-    int idLigneBus;  //donnée qui sera dupliquée dans chaque troncon de la ligne (pour aider au debugage et pour aider à la gestion des correspondances)
+    int idLigneBus;  //donnï¿½e qui sera dupliquï¿½e dans chaque troncon de la ligne (pour aider au debugage et pour aider ï¿½ la gestion des correspondances)
     char *nomLigne;
     TlisteStation depart;   //peut etre parcouru dans les deux sens
     TlisteStation arrivee;
@@ -54,9 +61,9 @@ typedef enum{ depart_vers_arrivee, arrivee_vers_depart} TsensParcours;
 
 typedef struct{
     int idBus;
-    TlisteStation positionSurLaLigneDeBus;  //la derniere station atteinte (dans la liste) du bus est dans le champ pdata, stocké dans un Tcellule
+    TlisteStation positionSurLaLigneDeBus;  //la derniere station atteinte (dans la liste) du bus est dans le champ pdata, stockï¿½ dans un Tcellule
     int posXBus, posYBus;                   //coord du bus pixel par pixel pour les trajets
-    int idLigneBusActuelle;                 //un bus suit une ligne de bus à un instant t et peut en changer
+    int idLigneBusActuelle;                 //un bus suit une ligne de bus ï¿½ un instant t et peut en changer
     TsensParcours sensParcours;
 } Typebus;
 
