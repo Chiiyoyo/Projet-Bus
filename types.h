@@ -88,6 +88,12 @@ TsensParcours getSensParcours(Tbus myBus);
 TlisteStation getActualStation( Tbus myBus );
 int getIdLigneBus(Tbus myBus);
 
+// New Getteurs for coutMaintenance and dateDerniereMaintenance
+int getCoutMaintenance(Tstation *myStation);
+int getDateDerniereMaintenanceJour(Tstation *myStation);
+int getDateDerniereMaintenanceMois(Tstation *myStation);
+int getDateDerniereMaintenanceAnnee(Tstation *myStation);
+
 //Setteurs
 void setActualStation( Tbus myBus, TlisteStation arrivalStation );
 void setPosXBus(Tbus myBus, int newX);
@@ -95,5 +101,12 @@ void setPosYBus(Tbus myBus, int newY);
 void setIdLigneBus(Tbus myBus, int idLigne);
 void setSensParcours(Tbus myBus, TsensParcours sens );
 void setPositionSurLaLigneDeBus( Tbus myBus, TlisteStation myStation);
+
+// New Setteurs for coutMaintenance and dateDerniereMaintenance
+void setCoutMaintenance(Tstation *myStation, int cout);
+void setDateDerniereMaintenanceJour(Tstation *myStation, int jour);
+void setDateDerniereMaintenanceMois(Tstation *myStation, int mois);
+void setDateDerniereMaintenanceAnnee(Tstation *myStation, int annee);
+void setDateDerniereMaintenance(Tstation *myStation, int jour, int mois, int annee);
 
 #endif // TYPES_H_INCLUDED
